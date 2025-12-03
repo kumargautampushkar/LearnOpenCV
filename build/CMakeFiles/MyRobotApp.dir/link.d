@@ -3,6 +3,7 @@ MyRobotApp: \
   /usr/lib/gcc/x86_64-redhat-linux/15/../../../../lib64/crti.o \
   /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o \
   CMakeFiles/MyRobotApp.dir/main.cpp.o \
+  CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o \
   /usr/lib64/libopencv_gapi.so.4.11.0 \
   /usr/lib64/libopencv_stitching.so.4.11.0 \
   /usr/lib64/libopencv_alphamat.so.4.11.0 \
@@ -563,6 +564,8 @@ MyRobotApp: \
 /usr/lib/gcc/x86_64-redhat-linux/15/crtbegin.o:
 
 CMakeFiles/MyRobotApp.dir/main.cpp.o:
+
+CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o:
 
 /usr/lib64/libopencv_gapi.so.4.11.0:
 

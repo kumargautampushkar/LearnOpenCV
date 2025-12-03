@@ -7,6 +7,12 @@
 },
 {
   "directory": "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build",
+  "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o -c \"/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/ObjectDetector.cpp\"",
+  "file": "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/ObjectDetector.cpp",
+  "output": "CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o"
+},
+{
+  "directory": "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build",
   "command": "/usr/bin/c++  -isystem /usr/include/opencv4 -g -std=gnu++17 -o CMakeFiles/SiftObjDetector.dir/SiftObjDetector.cpp.o -c \"/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/SiftObjDetector.cpp\"",
   "file": "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/SiftObjDetector.cpp",
   "output": "CMakeFiles/SiftObjDetector.dir/SiftObjDetector.cpp.o"

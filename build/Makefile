@@ -142,6 +142,30 @@ SiftObjDetector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/build
 .PHONY : SiftObjDetector/fast
 
+ObjectDetector.o: ObjectDetector.cpp.o
+.PHONY : ObjectDetector.o
+
+# target to build an object file
+ObjectDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRobotApp.dir/build.make CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o
+.PHONY : ObjectDetector.cpp.o
+
+ObjectDetector.i: ObjectDetector.cpp.i
+.PHONY : ObjectDetector.i
+
+# target to preprocess a source file
+ObjectDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRobotApp.dir/build.make CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.i
+.PHONY : ObjectDetector.cpp.i
+
+ObjectDetector.s: ObjectDetector.cpp.s
+.PHONY : ObjectDetector.s
+
+# target to generate assembly for a file
+ObjectDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRobotApp.dir/build.make CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.s
+.PHONY : ObjectDetector.cpp.s
+
 SiftObjDetector.o: SiftObjDetector.cpp.o
 .PHONY : SiftObjDetector.o
 
@@ -200,6 +224,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... MyRobotApp"
 	@echo "... SiftObjDetector"
+	@echo "... ObjectDetector.o"
+	@echo "... ObjectDetector.i"
+	@echo "... ObjectDetector.s"
 	@echo "... SiftObjDetector.o"
 	@echo "... SiftObjDetector.i"
 	@echo "... SiftObjDetector.s"

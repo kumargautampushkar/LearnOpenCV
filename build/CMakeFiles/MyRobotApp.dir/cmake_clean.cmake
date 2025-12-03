@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MyRobotApp.dir/link.d"
+  "CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o"
+  "CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o.d"
   "CMakeFiles/MyRobotApp.dir/main.cpp.o"
   "CMakeFiles/MyRobotApp.dir/main.cpp.o.d"
   "MyRobotApp"

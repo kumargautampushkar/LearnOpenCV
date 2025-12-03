@@ -88,12 +88,12 @@ clean: CMakeFiles/SiftObjDetector.dir/clean
 CMakeFiles/MyRobotApp.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRobotApp.dir/build.make CMakeFiles/MyRobotApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRobotApp.dir/build.make CMakeFiles/MyRobotApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=1,2 "Built target MyRobotApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=1,2,3 "Built target MyRobotApp"
 .PHONY : CMakeFiles/MyRobotApp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MyRobotApp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/MyRobotApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" 0
 .PHONY : CMakeFiles/MyRobotApp.dir/rule
@@ -105,7 +105,7 @@ MyRobotApp: CMakeFiles/MyRobotApp.dir/rule
 # codegen rule for target.
 CMakeFiles/MyRobotApp.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRobotApp.dir/build.make CMakeFiles/MyRobotApp.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=1,2 "Finished codegen for target MyRobotApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=1,2,3 "Finished codegen for target MyRobotApp"
 .PHONY : CMakeFiles/MyRobotApp.dir/codegen
 
 # clean rule for target.
@@ -120,7 +120,7 @@ CMakeFiles/MyRobotApp.dir/clean:
 CMakeFiles/SiftObjDetector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=3,4 "Built target SiftObjDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=4,5 "Built target SiftObjDetector"
 .PHONY : CMakeFiles/SiftObjDetector.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +137,7 @@ SiftObjDetector: CMakeFiles/SiftObjDetector.dir/rule
 # codegen rule for target.
 CMakeFiles/SiftObjDetector.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=3,4 "Finished codegen for target SiftObjDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build/CMakeFiles" --progress-num=4,5 "Finished codegen for target SiftObjDetector"
 .PHONY : CMakeFiles/SiftObjDetector.dir/codegen
 
 # clean rule for target.

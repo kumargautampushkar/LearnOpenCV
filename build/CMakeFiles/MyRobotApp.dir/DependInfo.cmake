@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/ObjectDetector.cpp" "CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o" "gcc" "CMakeFiles/MyRobotApp.dir/ObjectDetector.cpp.o.d"
   "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/main.cpp" "CMakeFiles/MyRobotApp.dir/main.cpp.o" "gcc" "CMakeFiles/MyRobotApp.dir/main.cpp.o.d"
   "" "MyRobotApp" "gcc" "CMakeFiles/MyRobotApp.dir/link.d"
   )
