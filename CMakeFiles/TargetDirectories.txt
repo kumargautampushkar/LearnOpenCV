@@ -1,3 +1,4 @@
 /run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/CMakeFiles/MyRobotApp.dir
+/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/CMakeFiles/SiftObjDetector.dir
 /run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/CMakeFiles/edit_cache.dir
 /run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/CMakeFiles/rebuild_cache.dir

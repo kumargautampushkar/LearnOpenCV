@@ -859,7 +859,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Project"
+			"value" : "FedoraOpenCVTest"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1158,7 +1158,19 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "Project_BINARY_DIR",
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenCV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenCV"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[/usr][v4.11.0()]"
+		},
+		{
+			"name" : "FedoraOpenCVTest_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1170,7 +1182,7 @@
 			"value" : "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build"
 		},
 		{
-			"name" : "Project_IS_TOP_LEVEL",
+			"name" : "FedoraOpenCVTest_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1182,7 +1194,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "Project_SOURCE_DIR",
+			"name" : "FedoraOpenCVTest_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1192,6 +1204,18 @@
 			],
 			"type" : "STATIC",
 			"value" : "/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV"
+		},
+		{
+			"name" : "OpenCV_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for OpenCV."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/lib64/cmake/OpenCV"
 		},
 		{
 			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",

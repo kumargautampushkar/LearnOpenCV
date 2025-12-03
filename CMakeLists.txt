@@ -28,6 +28,8 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 
 # Create the executable (Replace 'main.cpp' with your file name)
 add_executable(MyRobotApp main.cpp)
+add_executable(SiftObjDetector SiftObjDetector.cpp)
 
 # Link the executable to the OpenCV libraries found
 target_link_libraries(MyRobotApp ${OpenCV_LIBS})
+target_link_libraries(SiftObjDetector ${OpenCV_LIBS})

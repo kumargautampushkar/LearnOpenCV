@@ -129,6 +129,43 @@ MyRobotApp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/MyRobotApp.dir/build.make CMakeFiles/MyRobotApp.dir/build
 .PHONY : MyRobotApp/fast
 
+#=============================================================================
+# Target rules for targets named SiftObjDetector
+
+# Build rule for target.
+SiftObjDetector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 SiftObjDetector
+.PHONY : SiftObjDetector
+
+# fast build rule for target.
+SiftObjDetector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/build
+.PHONY : SiftObjDetector/fast
+
+SiftObjDetector.o: SiftObjDetector.cpp.o
+.PHONY : SiftObjDetector.o
+
+# target to build an object file
+SiftObjDetector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/SiftObjDetector.cpp.o
+.PHONY : SiftObjDetector.cpp.o
+
+SiftObjDetector.i: SiftObjDetector.cpp.i
+.PHONY : SiftObjDetector.i
+
+# target to preprocess a source file
+SiftObjDetector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/SiftObjDetector.cpp.i
+.PHONY : SiftObjDetector.cpp.i
+
+SiftObjDetector.s: SiftObjDetector.cpp.s
+.PHONY : SiftObjDetector.s
+
+# target to generate assembly for a file
+SiftObjDetector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SiftObjDetector.dir/build.make CMakeFiles/SiftObjDetector.dir/SiftObjDetector.cpp.s
+.PHONY : SiftObjDetector.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +199,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... MyRobotApp"
+	@echo "... SiftObjDetector"
+	@echo "... SiftObjDetector.o"
+	@echo "... SiftObjDetector.i"
+	@echo "... SiftObjDetector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -226,15 +226,6 @@ FedoraOpenCVTest_SOURCE_DIR:STATIC=/run/media/runtime_terror/mass storage/coding
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib64/cmake/OpenCV
 
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV/build
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/run/media/runtime_terror/mass storage/coding/courses/LearnOpenCV
-
 
 ########################
 # INTERNAL cache entries
